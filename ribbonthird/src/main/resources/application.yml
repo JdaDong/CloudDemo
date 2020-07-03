@@ -1,0 +1,56 @@
+server:
+  port: 8091
+spring:
+  application:
+     name: ribbon-provider2
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: root
+    password: 123
+    virtualHost: /
+#  cloud:
+#    stream:
+#      rabbit:
+#        bindings:
+#          rabbit.type: rabbit
+#      binders:
+#        rabbitmq.host: ${spring.rabbitmq.host}
+#        rabbitmq.port: ${spring.rabbitmq.port}
+#        rabbitmq.username: ${spring.rabbitmq.username}
+#        rabbitmq.password: ${spring.rabbitmq.password}
+
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  instance:
+    metadata-map:
+      cluster: ribbon2
+  client:
+     fetch-registry: false
+     register-with-eureka: false
+     service-url:
+         defaultZone: http://localhost:8087/eureka/,http://localhost:8086/eureka/,http://localhost:8085/eureka/
+hystrix:
+  metrics:
+    enabled: true
+
+
+
+
+---
+#server:
+#  port: 8096
+#spring:
+#  application:
+#    name: ribbon-provider2
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8087/eureka/
