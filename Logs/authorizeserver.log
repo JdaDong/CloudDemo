@@ -1,0 +1,724 @@
+2020-07-09 23:49:15,170 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : No active profile set, falling back to default profiles: default
+2020-07-09 23:49:17,148 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-09 23:49:17,283 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-07-09 23:49:17,875 eruake -1 INFO [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=de5f65fd-2276-30c8-add8-f2f61e100c89
+2020-07-09 23:49:18,244 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-09 23:49:18,370 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-09 23:49:18,457 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-09 23:49:18,967 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8445 (http)
+2020-07-09 23:49:19,108 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8445"]
+2020-07-09 23:49:19,211 eruake -1 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-07-09 23:49:19,309 eruake -1 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-09 23:49:19,416 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-09 23:49:19,510 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-09 23:49:19,610 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-09 23:49:19,717 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-09 23:49:20,976 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-09 23:49:21,275 eruake -1 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-07-09 23:49:21,342 eruake -1 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5457 ms
+2020-07-09 23:49:21,625 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 23:49:21,748 eruake -1 INFO [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@521ba38f
+2020-07-09 23:49:21,933 eruake -1 INFO [main] com.example.authorizeserver.Config.MyFilter : init
+2020-07-09 23:49:22,133 eruake -1 INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 23:49:22,220 eruake -1 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-09 23:49:24,031 eruake -1 INFO [task-1] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 23:49:24,166 eruake -1 INFO [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-09 23:49:24,453 eruake -1 INFO [task-1] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 23:49:24,465 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebmvcConfig : addInterceptor
+2020-07-09 23:49:24,762 eruake -1 INFO [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-09 23:49:24,943 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 23:49:25,142 eruake -1 INFO [main] org.springframework.boot.autoconfigure.security.oauth2.authserver.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = d7f4619f-8f7e-4ea7-92ac-8e27efccc942
+security.oauth2.client.client-secret = 53995843-0fc5-40c6-b1fc-e9084e6bb99f
+
+
+2020-07-09 23:49:28,039 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebConfig : auth
+2020-07-09 23:49:28,424 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ce24a98, org.springframework.security.web.context.SecurityContextPersistenceFilter@6bbb3ec8, org.springframework.security.web.header.HeaderWriterFilter@745e1fb7, org.springframework.security.web.authentication.logout.LogoutFilter@d374c01, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6725f9e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@414b785c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a120e41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@496101d1, org.springframework.security.web.session.SessionManagementFilter@497d9489, org.springframework.security.web.access.ExceptionTranslationFilter@46984524, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a5812dc]
+2020-07-09 23:49:28,509 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27df971b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6193340e, org.springframework.security.web.header.HeaderWriterFilter@1bc6a43c, org.springframework.security.web.authentication.logout.LogoutFilter@2de22e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@312af870, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@37905236, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1160c54b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bced0d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@158774d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@363b7709, org.springframework.security.web.session.SessionManagementFilter@5f3fa154, org.springframework.security.web.access.ExceptionTranslationFilter@53bf791, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6999dca2]
+2020-07-09 23:49:31,140 eruake -1 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-09 23:49:31,357 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2020-07-09 23:49:31,675 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2020-07-09 23:49:31,850 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-09 23:49:31,926 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-09 23:49:32,139 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-09 23:49:32,219 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-09 23:49:32,514 eruake -1 INFO [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-09 23:49:33,295 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-09 23:49:33,394 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-09 23:49:33,493 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-09 23:49:33,602 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-09 23:49:33,719 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-09 23:49:33,811 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2020-07-09 23:49:33,903 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-09 23:49:34,229 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-09 23:49:34,329 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2020-07-09 23:49:34,420 eruake -1 INFO [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-09 23:49:34,514 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1594309774513 with initial instances count: 0
+2020-07-09 23:49:34,613 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application AUTHORIZE-SERVER with eureka with status UP
+2020-07-09 23:49:34,719 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1594309774719, current=UP, previous=STARTING]
+2020-07-09 23:49:34,812 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-09 23:49:34,813 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8445"]
+2020-07-09 23:49:35,016 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-09 23:49:35,751 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8445 (http) with context path ''
+2020-07-09 23:49:35,920 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8445
+2020-07-09 23:49:38,144 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-09 23:49:38,278 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-09 23:49:38,389 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : Started AuthorizeserverApplication in 26.886 seconds (JVM running for 29.925)
+2020-07-09 23:50:04,329 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-09 23:50:04,475 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-09 23:50:04,620 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-09 23:50:04,711 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-09 23:50:04,803 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-09 23:50:04,919 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
+2020-07-09 23:50:05,011 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-09 23:50:05,159 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-09 23:54:34,031 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-09 23:59:34,133 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:04:34,253 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:09:47,645 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : No active profile set, falling back to default profiles: default
+2020-07-10 00:09:49,151 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-10 00:09:49,288 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+2020-07-10 00:09:49,937 eruake -1 INFO [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=de5f65fd-2276-30c8-add8-f2f61e100c89
+2020-07-10 00:09:50,330 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-10 00:09:50,408 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-10 00:09:50,499 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-10 00:09:50,991 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8445 (http)
+2020-07-10 00:09:51,165 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8445"]
+2020-07-10 00:09:51,248 eruake -1 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-07-10 00:09:51,381 eruake -1 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 00:09:51,516 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-10 00:09:51,606 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-10 00:09:51,698 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-10 00:09:51,789 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-10 00:09:53,074 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-10 00:09:53,436 eruake -1 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-07-10 00:09:53,506 eruake -1 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5705 ms
+2020-07-10 00:09:53,765 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-10 00:09:53,864 eruake -1 INFO [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@67d5ac2f
+2020-07-10 00:09:54,240 eruake -1 INFO [main] com.example.authorizeserver.Config.MyFilter : init
+2020-07-10 00:09:54,459 eruake -1 INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:09:54,576 eruake -1 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-10 00:09:56,350 eruake -1 INFO [task-1] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-10 00:09:56,543 eruake -1 INFO [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-10 00:09:56,766 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebmvcConfig : addInterceptor
+2020-07-10 00:09:56,784 eruake -1 INFO [task-1] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-10 00:09:57,077 eruake -1 INFO [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-10 00:09:57,273 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-10 00:09:57,563 eruake -1 INFO [main] org.springframework.boot.autoconfigure.security.oauth2.authserver.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = ac71d885-e6d0-4e72-bc47-db1881430fab
+security.oauth2.client.client-secret = b487b4ba-6f70-4b0e-b845-8a78db943260
+
+
+2020-07-10 00:10:00,382 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebConfig : auth
+2020-07-10 00:10:00,751 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11b5b1f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fdb338e, org.springframework.security.web.header.HeaderWriterFilter@6193340e, org.springframework.security.web.authentication.logout.LogoutFilter@106a6420, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55a4a0ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c51ff83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e245068, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2eb95662, org.springframework.security.web.session.SessionManagementFilter@158774d3, org.springframework.security.web.access.ExceptionTranslationFilter@1bc6a43c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ae648d2]
+2020-07-10 00:10:00,856 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41a372c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2087181d, org.springframework.security.web.header.HeaderWriterFilter@7c5a7f, org.springframework.security.web.authentication.logout.LogoutFilter@2a62384, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@794fbf0d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3253d771, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@12bb3666, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e50ca51, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c1dc246, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18c2b4c6, org.springframework.security.web.session.SessionManagementFilter@5dd47c88, org.springframework.security.web.access.ExceptionTranslationFilter@12639753, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74efc394]
+2020-07-10 00:10:03,486 eruake -1 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-10 00:10:03,645 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2020-07-10 00:10:03,759 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2020-07-10 00:10:03,901 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-10 00:10:03,986 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-10 00:10:04,477 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-10 00:10:04,573 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-10 00:10:04,878 eruake -1 INFO [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:10:05,666 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-10 00:10:05,741 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-10 00:10:05,833 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-10 00:10:05,924 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-10 00:10:06,016 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-10 00:10:06,107 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2020-07-10 00:10:06,200 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-10 00:10:06,446 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-10 00:10:06,520 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2020-07-10 00:10:06,609 eruake -1 INFO [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-10 00:10:06,704 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1594311006701 with initial instances count: 1
+2020-07-10 00:10:06,793 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application AUTHORIZE-SERVER with eureka with status UP
+2020-07-10 00:10:06,907 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1594311006907, current=UP, previous=STARTING]
+2020-07-10 00:10:07,000 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 00:10:07,000 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8445"]
+2020-07-10 00:10:07,133 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 00:10:07,786 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8445 (http) with context path ''
+2020-07-10 00:10:07,859 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8445
+2020-07-10 00:10:09,994 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-10 00:10:10,067 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-10 00:10:10,185 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : Started AuthorizeserverApplication in 25.465 seconds (JVM running for 28.343)
+2020-07-10 00:13:27,411 eruake -1 INFO [http-nio-8445-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 00:13:27,521 eruake -1 INFO [http-nio-8445-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-07-10 00:13:27,670 eruake -1 INFO [http-nio-8445-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 67 ms
+2020-07-10 00:13:27,892 eruake -1 INFO [http-nio-8445-exec-1] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:13:35,468 eruake -1 INFO [http-nio-8445-exec-5] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:13:42,924 eruake -1 INFO [http-nio-8445-exec-7] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:13:54,882 eruake -1 INFO [http-nio-8445-exec-10] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:14:43,756 eruake -1 INFO [http-nio-8445-exec-4] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:14:59,346 eruake -1 INFO [http-nio-8445-exec-6] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:15:06,298 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:16:16,153 eruake -1 INFO [http-nio-8445-exec-9] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 00:20:06,406 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:25:06,575 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:30:06,697 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:35:06,937 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:40:07,041 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:45:07,802 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 00:50:07,968 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 01:18:33,411 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-10 01:18:33,598 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 01:18:33,684 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 01:18:33,910 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 01:18:33,978 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 01:21:04,465 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 04:22:02,961 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-10 04:22:03,206 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 04:22:03,351 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 09:14:19,656 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-10 09:14:19,871 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 09:14:20,055 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 09:14:49,694 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-10 09:14:49,777 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-10 09:14:49,903 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-10 09:14:50,077 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-10 09:14:50,186 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-10 09:14:50,294 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
+2020-07-10 09:14:50,402 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-10 09:14:50,513 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-10 09:17:50,924 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:19:40,064 eruake -1 INFO [http-nio-8445-exec-2] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 09:22:51,018 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:26:39,246 eruake -1 INFO [http-nio-8445-exec-3] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 09:26:40,469 eruake -1 INFO [http-nio-8445-exec-6] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 09:26:47,709 eruake -1 INFO [http-nio-8445-exec-8] com.example.authorizeserver.Config.MyFilter : doFilter
+2020-07-10 09:27:51,157 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:32:51,244 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:37:51,366 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:42:51,468 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:47:51,734 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:52:51,865 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 09:57:52,043 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:02:52,180 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:07:52,435 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:12:52,765 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:17:52,920 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:22:53,047 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:27:53,207 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:32:53,309 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:37:53,426 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:42:53,544 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:47:53,690 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:52:53,798 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 10:57:53,919 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:02:54,029 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:07:54,174 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:12:54,334 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:17:54,486 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:22:54,583 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:27:54,736 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:32:54,877 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:37:55,023 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 11:42:55,160 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 14:46:23,502 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-10 14:46:23,592 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 14:46:23,960 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 21:15:48,701 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-10 21:15:48,865 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-10 21:15:48,980 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-10 21:16:18,740 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-10 21:16:18,918 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-10 21:16:19,035 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-10 21:16:19,185 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-10 21:16:19,386 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-10 21:16:19,569 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
+2020-07-10 21:16:19,660 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-10 21:16:19,773 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-10 21:16:49,603 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:21:49,740 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:26:51,012 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:31:51,224 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:36:51,303 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:41:51,412 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:46:51,569 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:51:51,662 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 21:56:51,773 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:01:51,928 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:06:52,057 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:11:52,218 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:16:52,352 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:21:52,488 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:26:52,592 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:31:52,689 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:36:52,852 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:41:52,974 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:46:53,212 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:51:53,374 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 22:56:53,480 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:01:53,586 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:06:53,685 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:11:53,780 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:16:53,917 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:21:54,061 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:26:54,142 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:31:54,308 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:36:54,458 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:41:54,540 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:46:54,621 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:51:54,735 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-10 23:56:54,888 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:01:54,994 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:06:55,133 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:11:55,228 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:16:55,343 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:21:55,475 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:26:55,584 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:31:55,742 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:36:55,820 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:41:55,897 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:46:56,045 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:51:56,178 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 00:56:56,306 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 01:01:56,427 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 01:06:56,515 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 01:11:56,622 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 01:16:56,768 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 01:21:56,905 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:10:36,526 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-11 09:10:37,533 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-11 09:10:37,681 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-11 09:11:01,891 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-11 09:11:02,242 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-11 09:11:02,351 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-11 09:11:02,450 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-11 09:11:02,551 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-11 09:11:02,684 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
+2020-07-11 09:11:02,793 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-11 09:11:02,896 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-11 09:11:34,958 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:16:35,038 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:21:35,136 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:26:35,241 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:31:35,335 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:36:35,474 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:41:35,598 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:46:35,709 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:51:35,862 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 09:56:35,992 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:01:36,108 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:06:36,260 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:11:36,331 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:16:36,420 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:21:36,534 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:26:36,614 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:31:36,743 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:36:36,906 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:41:37,078 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:46:37,258 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:51:37,396 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 10:56:37,511 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:01:37,625 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:06:37,753 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:11:37,882 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:16:38,012 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:21:38,159 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:26:38,295 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:31:38,423 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:36:38,574 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:41:38,710 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:46:38,884 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:51:39,054 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 11:56:39,208 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:01:39,328 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:06:39,443 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:11:39,540 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:16:39,662 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:21:39,835 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:26:39,938 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:31:40,131 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:36:40,255 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-11 12:41:40,361 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:00:31,885 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : No active profile set, falling back to default profiles: default
+2020-07-12 23:00:34,509 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-12 23:00:34,674 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-07-12 23:00:35,317 eruake -1 INFO [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=de5f65fd-2276-30c8-add8-f2f61e100c89
+2020-07-12 23:00:35,731 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:00:35,862 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:00:35,964 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:00:36,593 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8445 (http)
+2020-07-12 23:00:36,749 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8445"]
+2020-07-12 23:00:36,877 eruake -1 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-07-12 23:00:36,976 eruake -1 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-12 23:00:37,110 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-12 23:00:37,251 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-12 23:00:37,352 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-12 23:00:37,451 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-12 23:00:38,771 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-12 23:00:39,300 eruake -1 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-07-12 23:00:39,385 eruake -1 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6708 ms
+2020-07-12 23:00:39,684 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-12 23:00:39,974 eruake -1 INFO [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5fde1d64
+2020-07-12 23:00:40,182 eruake -1 INFO [main] com.example.authorizeserver.Config.MyFilter : init
+2020-07-12 23:00:40,479 eruake -1 INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 23:00:40,630 eruake -1 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-12 23:00:43,209 eruake -1 INFO [task-1] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-12 23:00:43,669 eruake -1 INFO [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-12 23:00:43,803 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebmvcConfig : addInterceptor
+2020-07-12 23:00:44,343 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-12 23:00:44,611 eruake -1 INFO [main] org.springframework.boot.autoconfigure.security.oauth2.authserver.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = b2b54b6d-8c07-44d6-87a5-18da0349c06e
+security.oauth2.client.client-secret = 691ba9cb-f225-4ea5-b3e5-f1e7256b40b7
+
+
+2020-07-12 23:00:44,742 eruake -1 INFO [task-1] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-12 23:00:45,063 eruake -1 INFO [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-12 23:00:47,633 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebConfig : auth
+2020-07-12 23:00:48,082 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@356c8c1b, org.springframework.security.web.context.SecurityContextPersistenceFilter@63916a3, org.springframework.security.web.header.HeaderWriterFilter@26db7540, org.springframework.security.web.authentication.logout.LogoutFilter@27df971b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@559d9517, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5aeb2c8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37905236, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a7a8e1e, org.springframework.security.web.session.SessionManagementFilter@7900d917, org.springframework.security.web.access.ExceptionTranslationFilter@523cc8b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6722f81a]
+2020-07-12 23:00:48,199 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76b5b1e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e5e0e75, org.springframework.security.web.header.HeaderWriterFilter@d69fd7a, org.springframework.security.web.authentication.logout.LogoutFilter@25699129, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@453c10c2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@466fb9be, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@8b329ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50fbb66a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12bb0322, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fe1a856, org.springframework.security.web.session.SessionManagementFilter@6987a0f3, org.springframework.security.web.access.ExceptionTranslationFilter@31efe094, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c4f6d5b]
+2020-07-12 23:00:51,190 eruake -1 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-12 23:00:51,390 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2020-07-12 23:00:51,572 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2020-07-12 23:00:51,730 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-12 23:00:51,927 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-12 23:00:52,185 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-12 23:00:52,252 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-12 23:00:52,564 eruake -1 INFO [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:00:53,405 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-12 23:00:53,544 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-12 23:00:53,644 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-12 23:00:53,745 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-12 23:00:53,853 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-12 23:00:53,961 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2020-07-12 23:00:54,061 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-12 23:00:54,292 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-12 23:00:54,363 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2020-07-12 23:00:54,468 eruake -1 INFO [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-12 23:00:54,574 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1594566054570 with initial instances count: 1
+2020-07-12 23:00:54,675 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application AUTHORIZE-SERVER with eureka with status UP
+2020-07-12 23:00:54,798 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1594566054798, current=UP, previous=STARTING]
+2020-07-12 23:00:54,923 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-12 23:00:54,924 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8445"]
+2020-07-12 23:00:55,093 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-12 23:00:55,763 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8445 (http) with context path ''
+2020-07-12 23:00:55,845 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8445
+2020-07-12 23:00:58,132 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-12 23:00:58,245 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-12 23:00:58,383 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : Started AuthorizeserverApplication in 31.231 seconds (JVM running for 33.426)
+2020-07-12 23:13:42,423 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : No active profile set, falling back to default profiles: default
+2020-07-12 23:13:44,085 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-12 23:13:44,107 eruake -1 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2020-07-12 23:13:44,487 eruake -1 INFO [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=de5f65fd-2276-30c8-add8-f2f61e100c89
+2020-07-12 23:13:44,865 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:13:44,868 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:13:44,869 eruake -1 INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 23:13:45,258 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8445 (http)
+2020-07-12 23:13:45,270 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8445"]
+2020-07-12 23:13:45,270 eruake -1 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-07-12 23:13:45,270 eruake -1 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-12 23:13:45,272 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-12 23:13:45,272 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-12 23:13:45,272 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-12 23:13:45,272 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-12 23:13:46,430 eruake -1 INFO [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-12 23:13:46,715 eruake -1 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-07-12 23:13:46,716 eruake -1 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4273 ms
+2020-07-12 23:13:46,856 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-12 23:13:46,866 eruake -1 INFO [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7f8c3646
+2020-07-12 23:13:46,986 eruake -1 INFO [main] com.example.authorizeserver.Config.MyFilter : init
+2020-07-12 23:13:47,135 eruake -1 INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 23:13:47,147 eruake -1 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-12 23:13:48,810 eruake -1 INFO [task-1] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-12 23:13:48,876 eruake -1 INFO [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-12 23:13:49,138 eruake -1 INFO [task-1] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-12 23:13:49,247 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebmvcConfig : addInterceptor
+2020-07-12 23:13:49,313 eruake -1 INFO [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2020-07-12 23:13:49,450 eruake -1 INFO [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-12 23:13:49,573 eruake -1 INFO [main] org.springframework.boot.autoconfigure.security.oauth2.authserver.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = a77664b3-761b-4a61-8b56-f37040a712dc
+security.oauth2.client.client-secret = aaa51318-a691-4f09-9ac0-d62a41449796
+
+
+2020-07-12 23:13:52,610 eruake -1 INFO [main] com.example.authorizeserver.Config.MyWebConfig : auth
+2020-07-12 23:13:52,941 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e681c3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a3d4cd2, org.springframework.security.web.header.HeaderWriterFilter@26aecf31, org.springframework.security.web.authentication.logout.LogoutFilter@430abcad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33a1bb90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2746b1cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d8802cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5519ee60, org.springframework.security.web.session.SessionManagementFilter@5f92ef40, org.springframework.security.web.access.ExceptionTranslationFilter@7aca4144, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@da8853c]
+2020-07-12 23:13:52,950 eruake -1 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fb8cfa7, org.springframework.security.web.context.SecurityContextPersistenceFilter@59a71bef, org.springframework.security.web.header.HeaderWriterFilter@574f89bf, org.springframework.security.web.authentication.logout.LogoutFilter@7ca46aaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d44025b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71443983, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4015c65b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@169f4152, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d36204f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16486ab3, org.springframework.security.web.session.SessionManagementFilter@2fbc704a, org.springframework.security.web.access.ExceptionTranslationFilter@7906de2f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a318745]
+2020-07-12 23:13:55,340 eruake -1 INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-12 23:13:55,493 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2020-07-12 23:13:55,536 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2020-07-12 23:13:55,621 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2020-07-12 23:13:55,621 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2020-07-12 23:13:55,786 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2020-07-12 23:13:55,786 eruake -1 INFO [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2020-07-12 23:13:55,995 eruake -1 INFO [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:13:56,870 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-12 23:13:56,870 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-12 23:13:56,871 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-12 23:13:56,871 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-12 23:13:56,871 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-12 23:13:56,871 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2020-07-12 23:13:56,871 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-12 23:13:57,021 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-12 23:13:57,024 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2020-07-12 23:13:57,027 eruake -1 INFO [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-12 23:13:57,032 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1594566837030 with initial instances count: 1
+2020-07-12 23:13:57,037 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application AUTHORIZE-SERVER with eureka with status UP
+2020-07-12 23:13:57,038 eruake -1 INFO [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1594566837038, current=UP, previous=STARTING]
+2020-07-12 23:13:57,041 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-12 23:13:57,041 eruake -1 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8445"]
+2020-07-12 23:13:57,077 eruake -1 INFO [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-12 23:13:57,936 eruake -1 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8445 (http) with context path ''
+2020-07-12 23:13:57,937 eruake -1 INFO [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8445
+2020-07-12 23:14:00,501 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-12 23:14:00,502 eruake -1 INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-12 23:14:00,527 eruake -1 INFO [main] com.example.authorizeserver.AuthorizeserverApplication : Started AuthorizeserverApplication in 21.397 seconds (JVM running for 23.785)
+2020-07-12 23:18:56,879 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:23:56,918 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:28:56,920 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:33:56,922 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:38:56,929 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:43:56,935 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:48:56,943 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:53:56,985 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-12 23:58:56,987 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:03:56,987 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:08:56,991 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:13:56,993 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:18:57,000 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:23:57,004 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:28:57,010 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:33:57,013 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:38:57,019 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:43:57,022 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:48:57,026 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:53:55,644 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 00:58:55,647 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 01:03:55,654 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 01:39:39,302 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-13 01:39:39,316 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-13 01:39:39,423 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-13 01:41:37,863 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:26:16,356 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-13 10:26:16,356 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-13 10:26:16,403 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-13 10:29:12,536 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:34:12,547 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:39:12,550 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:44:12,553 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:49:12,562 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:54:12,565 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 10:59:12,572 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:04:12,575 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:09:12,579 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:14:12,583 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:19:12,584 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:24:12,586 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:29:12,594 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:34:12,598 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:39:12,600 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:44:12,609 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:49:12,614 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:54:12,616 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 11:59:12,621 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:04:12,625 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:09:12,628 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:14:12,632 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:19:12,635 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:24:12,640 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:29:12,644 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:34:12,650 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:39:12,658 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:44:12,666 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:49:12,676 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:54:12,683 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 12:59:12,688 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:04:12,690 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:09:12,694 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:14:13,748 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:19:13,750 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:24:14,167 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:29:14,170 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:34:14,174 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:39:15,005 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:44:15,007 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:49:15,010 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:54:15,016 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 13:59:15,030 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:04:15,031 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:09:15,033 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:14:15,037 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:19:15,038 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:24:15,043 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:29:15,052 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:34:15,057 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:39:15,059 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:44:15,064 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:49:15,074 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:54:15,807 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 14:59:15,813 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:04:15,816 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:09:15,821 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:14:15,828 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:19:15,834 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:24:15,844 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:29:15,846 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:34:15,855 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:39:15,960 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:44:15,969 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:49:15,979 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:54:16,035 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 15:59:16,043 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:04:16,046 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:09:16,055 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:14:16,063 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:19:16,067 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:24:16,070 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:29:16,074 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:34:16,075 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:39:16,089 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:44:16,093 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:49:16,095 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:54:16,099 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 16:59:16,102 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:04:16,105 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:09:16,106 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:14:16,109 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:19:16,113 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:24:16,114 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:29:16,119 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:34:16,121 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:39:16,128 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:44:16,132 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:49:16,139 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:54:16,142 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 17:59:16,151 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:04:16,160 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:09:16,163 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:14:16,166 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:25:08,012 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-13 18:25:08,025 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-13 18:25:08,267 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-13 18:25:28,695 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:25:38,080 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
+2020-07-13 18:25:38,085 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2020-07-13 18:25:38,093 eruake -1 INFO [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
+2020-07-13 18:30:28,702 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:35:28,709 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:40:28,718 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:45:28,744 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:50:28,754 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 18:55:28,754 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:00:28,758 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:05:28,761 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:10:28,763 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:15:28,769 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:20:28,771 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:25:28,777 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:30:28,782 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:35:28,784 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:40:28,786 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:45:28,788 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:50:28,792 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 19:55:28,794 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:00:28,796 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:05:28,798 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:10:28,799 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:15:28,801 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:20:28,808 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:25:28,809 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:30:28,811 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:35:28,818 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:40:28,820 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:45:28,822 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:50:28,825 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 20:55:28,828 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:00:28,834 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:05:28,837 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:10:28,844 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:15:28,853 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:20:28,855 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:25:28,857 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:30:28,862 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:35:28,869 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:40:28,876 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:45:28,884 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:50:28,887 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 21:55:28,888 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:00:28,889 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:05:28,896 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:10:28,898 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:15:28,900 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:20:28,901 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:25:28,903 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:30:28,905 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:35:28,908 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:40:28,915 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:45:28,922 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:50:28,926 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 22:55:28,928 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:00:28,934 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:05:28,939 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:10:28,945 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:15:28,947 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:20:28,948 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:25:28,949 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:30:28,955 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:35:28,962 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:40:28,963 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:45:28,965 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:50:28,968 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-13 23:55:28,970 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:00:28,976 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:05:28,992 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:10:28,999 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:15:28,999 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:20:29,001 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:25:29,003 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:30:29,005 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:35:29,006 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:40:29,008 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:45:29,009 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:50:29,010 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 00:55:29,011 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:00:29,012 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:05:29,020 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:10:29,021 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:15:29,022 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:20:29,025 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:25:29,026 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:30:29,027 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:35:29,029 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:40:29,031 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:45:29,034 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:50:29,040 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 01:55:29,041 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 02:00:29,053 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 05:02:22,022 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-14 05:02:22,083 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-14 05:02:25,533 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-14 10:19:29,892 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - Re-registering apps/AUTHORIZE-SERVER
+2020-07-14 10:19:29,893 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445: registering service...
+2020-07-14 10:19:29,951 eruake -1 INFO [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_AUTHORIZE-SERVER/dadong-shenzhou:authorize-server:8445 - registration status: 204
+2020-07-14 10:22:05,220 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:27:05,222 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:32:05,230 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:37:05,231 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:42:05,235 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:47:05,238 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:52:05,259 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 10:57:05,262 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:02:05,264 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:07:03,099 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:12:03,100 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:17:03,108 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:22:03,117 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:27:03,119 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:32:03,122 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:37:03,124 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:42:03,126 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:47:03,129 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:52:03,132 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 11:57:03,134 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 12:02:03,140 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 12:07:03,144 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-07-14 12:12:03,146 eruake -1 INFO [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration

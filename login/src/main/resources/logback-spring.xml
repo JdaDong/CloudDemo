@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <contextName>eruake</contextName>
+
+    <!--
+    %d{yyyy-MM-dd HH:mm:ss, SSS} : 日志生产时间,输出到毫秒的时间
+%-5level : 输出日志级别，-5表示左对齐并且固定输出5个字符，如果不足在右边补0
+%c : logger的名称(%logger)
+%t : 输出当前线程名称
+%p : 日志输出格式
+%m : 日志内容，即 logger.info("message")
+%n : 换行符
+%C : Java类名(%F)
+%L : 行号
+%M : 方法名
+%l : 输出语句所在的行数, 包括类名、方法名、文件名、行数
+hostName : 本地机器名
+hostAddress : 本地ip地址
+    -->
+
+    <!-- 自定义变量 -->
+    <property name="logging.path" value="D:\\CloudDemo\\Logs"></property>
+
+    <!--0. 日志格式和颜色渲染 -->
+    <!-- 彩色日志依赖的渲染类 -->
+    <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
+    <conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />
+    <conversionRule conversionWord="wEx" converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter" />
+    <!-- 彩色日志格式 -->
+    <property name="CONSOLE_LOG_PATTERN" value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"/>
+
+    <!--输出到控制台 ConsoleAppender-->
+    <appender name="consoleLog1" class="ch.qos.logback.core.ConsoleAppender">
+        <!--展示格式 layout-->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d %contextName -1 %level [%thread] %logger : %msg%n</pattern>
+        </layout>
+    </appender>
+    <!--&lt;!&ndash;输出到控制台 ConsoleAppender&ndash;&gt;-->
+    <!--<appender name="consoleLog2" class="ch.qos.logback.core.ConsoleAppender">-->
+    <!--<encoder>-->
+    <!--<pattern>%d -2 %msg%n</pattern>-->
+    <!--</encoder>-->
+    <!--</appender>-->
+
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 正在记录的日志文档的路径及文档名 -->
+        <file>${logging.path}/login.log</file>
+        <!--日志文档输出格式-->
+        <encoder>
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%d %contextName -1 %level [%thread] %logger : %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logging.path}/login-info-%d.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>15</maxHistory>
+<!--            <Policies>-->
+<!--                <TimeBasedTriggeringPolicy interval="0.05"/>-->
+<!--                <SizeBasedTriggeringPolicy size="100 MB"/>-->
+<!--            </Policies>-->
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件，这里设置了20 -->
+<!--            <DefaultRolloverStrategy max="20"/>-->
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>info</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+        <!-- 此日志文件只记录ERROR级别的 -->
+        <!--<filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+            <!--<level>ERROR</level>-->
+        <!--</filter>-->
+    </appender>
+
+    <!-- async -->
+    <appender name="async" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
+        <discardingThreshold >0</discardingThreshold>
+        <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->
+        <queueSize>512</queueSize>
+        <includeCallerData>true</includeCallerData> <!-- Copy caller data to event -->
+        <!-- 添加附加的appender,最多只能添加一个 -->
+        <appender-ref ref="INFO_FILE"/>
+    </appender>
+
+    <!-- 设置Spring&Hibernate日志输出级别 -->
+    <!--<logger name="org.springframework" level="WARN"/>-->
+    <!--<logger name="org.mybatis" level="WARN"/>-->
+    <!--<logger name="com.ibatis" level="DEBUG"/>-->
+    <!--<logger name="com.ibatis.common.jdbc.SimpleDataSource" level="DEBUG"/>-->
+    <!--<logger name="com.ibatis.common.jdbc.ScriptRunner" level="DEBUG"/>-->
+    <!--<logger name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="DEBUG"/>-->
+
+
+
+    <!--<logger name="java.sql.Connection" level="DEBUG"/>-->
+    <!--<logger name="java.sql.Statement" level="DEBUG"/>-->
+    <!--<logger name="java.sql.PreparedStatement" level="DEBUG"/>-->
+    <!--<logger name="com.ruidou.baoqian.mapper" level="DEBUG"/>-->
+
+    <!-- DB -->
+    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
+<!--        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">-->
+<!--            <datasource class="org.apache.commons.pool2."></datasource>-->
+<!--        </connectionSource>-->
+        <connectionSource  class="ch.qos.logback.core.db.DataSourceConnectionSource">
+<!--                    <dataSource class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+            <dataSource class="com.alibaba.druid.pool.DruidDataSource">
+                <driverClass>com.mysql.cj.jdbc.Driver</driverClass>
+                <url>jdbc:mysql://127.0.0.1:3306/cloudedemo_log?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC</url>
+                <user>root</user>
+                <password>123</password>
+
+            </dataSource>
+            <sqlDialect class="ch.qos.logback.core.db.dialect.MySQLDialect" />
+<!--            <hibernate.dialect>org.hibernate.dialect.MySQL5Dialect</hibernate.dialect>-->
+<!--             </dataSource>-->
+        </connectionSource >
+    </appender>
+
+    <!--项目中指定包日志控制-->
+    <!--  name 包的地址-->
+    <logger name="com.example.login.LoginContoller" level="error">
+        <appender-ref ref="INFO_FILE"/>
+    </logger>
+
+    <!--指定最基础的日志输出级别-->
+    <root level="INFO">
+        <!--appender将会添加到这个loger-->
+        <appender-ref ref="consoleLog1"/>
+        <!--<appender-ref ref="consoleLog2"/>-->
+        <appender-ref ref="INFO_FILE"/>
+        <appender-ref ref="DB"/>
+    </root>
+</configuration>
