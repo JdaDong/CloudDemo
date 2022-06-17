@@ -12,7 +12,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.41</version>
+            <version>1.2.83</version>
         </dependency>
         <!-- mysql-connector-java -->
         <dependency>
@@ -36,7 +36,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.41</version>
+                <version>1.2.83</version>
             </dependency>
             <!--Spring 数据库相关依赖-->
             <dependency>
